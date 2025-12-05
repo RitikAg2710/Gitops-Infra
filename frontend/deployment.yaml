@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ritikdag/application-code-frontend:v1
-        imagePullPolicy: Always
+        image: frontend-image-k8
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
